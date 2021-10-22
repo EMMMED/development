@@ -1,0 +1,39 @@
+.nav-bar{
+    text-align: center;
+    font-size: 20px;
+}
+
+.tittle {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+}
+
+.cards-container {
+    width: 60%;
+}
+
+.card {
+    display:flex;
+    flex-flow:row;
+    gap: 5%;
+    margin-top: 10px;
+}
+
+.topic-aside {
+    width: 40%;
+}
+
+.topic-item {
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    justify-content: center;
+}
