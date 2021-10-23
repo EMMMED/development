@@ -1,3 +1,16 @@
+.nav-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style-type: none;
+    gap:10px;
+}
+
+.nav-items{
+    text-decoration: none;
+    justify-content: center;
+}
+
 .nav-bar{
     text-align: center;
     font-size: 20px;
