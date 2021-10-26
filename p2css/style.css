@@ -1,0 +1,61 @@
+main {
+    align-items: center;
+    gap: 0px;
+    padding-top: 10vw;
+    padding-left: 20vw;
+}
+
+
+
+section {
+    display: inline-block;
+    width: 17%;
+    height: 400px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    border-radius: 5px;
+
+}
+
+img {
+    margin-top: 20px;
+}
+
+h2, p{
+    color: aliceblue;
+}
+
+button {
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 60px;
+    border: transparent;
+}
+
+.bg-orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bg-blue {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.bg-green {
+    background-color:hsl(179, 100%, 13%);
+}
+
+cl-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+cl-blue {
+    color: hsl(184, 100%, 22%);
+}
+
+cl-green {
+    color:hsl(179, 100%, 13%);
+}
+
