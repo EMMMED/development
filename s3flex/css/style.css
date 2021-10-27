@@ -1,9 +1,14 @@
-div {
+.square  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50px;
     height: 50px;
-    background-color: black;
-    padding: 10px 10px;
     margin: 5px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 h2 {
@@ -15,6 +20,12 @@ h2 {
     border:1px solid black;
     padding: 10px 10px;
     margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .space-between {
@@ -34,15 +45,15 @@ h2 {
 }
 
 .start {
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .end {
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .yellow {
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(200, 200, 0);
 }
 
 .blue {
@@ -54,7 +65,7 @@ h2 {
 }
 
 .green {
-    background-color: rgb(000, 255, 000);
+    background-color: rgb(000, 200, 000);
 }
 
 .purple {
