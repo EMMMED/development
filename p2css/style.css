@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 main {
     align-items: center;
     gap: 0px;
     padding-top: 10vw;
     padding-left: 20vw;
 }
-
-
 
 section {
     display: inline-block;
@@ -36,6 +36,9 @@ button {
 
 button:active {
     transform: scale(.98);
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
 }
 
 .bg-orange {
@@ -64,3 +67,10 @@ cl-green {
     color:hsl(179, 100%, 13%);
 }
 
+.lexan-deca {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.big-shoulders-display {
+    font-family: 'Big Shoulders Display', cursive;
+}
