@@ -9,3 +9,5 @@ carpeta/archivo.extensión
 
 #4 Asi ignoramos carpetas completas
 carpeta/
+
+.vscode
