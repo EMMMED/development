@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>
+            1.
+        </h2>
+        <ul>
+            <li>
+                <h3>Selecciona todos los elementos del tipo párrafo que tengan la clase main-text.</h3>
+                <p>p.main-text</p>
+            </li>
+            <li>
+                <h3>Selecciona todos los elementos de lista pares dentro de una lista no ordenada</h3>
+                <p>ul li:nth-of-type(even)</p>
+            </li>
+            <li>
+                <h3>Selecciona los links visitados dentro de una barra de navegación</h3>
+                <p>nav ul li a:visited</p>
+            </li>
+            <li>
+                <h3>Selecciona la imagen que sea descendiente inmediato de una card sobre la que se coloca el puntero del mouse</h3>
+                <p>card:hover > img</p>
+            </li>
+            <li>
+                <h3>Selecciona la primer sección que se encuentre dentro de una etiqueta main</h3>
+                <p>main > section:fisrt-of-type </p>
+            </li>
+            <li>
+                <h3>Selecciona cualquier elemento que incluya en su classlist el texto "btn"</h3>
+                <p>*[class*="btn"]</p>
+            </li>
+            <li>
+                <h3>Selecciona todos los botones excepto aquellos que sean el último hijo</h3>
+                <p>button:not:last-child()
+                    button:not(:last-child)
+                </p>
+            </li>
+            <li>
+                <h3></h3>
+                <p></p>
+            </li>
+        </ul>
+        <h2>
+            2.
+        </h2>
+        <ul>
+            <li>
+                <h3>header#main-header > ul</h3>
+                <p> Selecciona un ul que tiene que ser hijo directo de un header con id main-header</p>
+            </li>
+            <li>
+                <h3>aside ul li:not(even)</h3>
+                <p>Selecciona todos los li que no son pares dentro de un ul que a su vez esta dentro de un aside</p>
+            </li>
+            <li>
+                <h3>section#posts article:nth-of-type( odd )</h3>
+                <p>Selecciona los article impares dentro de una section con id posts</p>
+            </li>
+            <li>
+                <h3>table tr td</h3>
+                <p>Selecciona las celdas dentro de las filas de una tabla</p>
+            </li>
+            <li>
+                <h3>footer > ul li a.nav-link</h3>
+                <p>Selecciona un anchor con clase .nav-link que esta dentro de un li, que esta debtri de un ul, que es hijo directo del footer</p>
+            </li>
+            <li>
+                <h3>p span.text-white</h3>
+                <p>Selecciona un span con la clase text-white que esta dentro de un párrafo</p>
+            </li>
+            <li>
+                <h3>section.bg-dark p.text-white span</h3>
+                <p>Selecciona un span que esta dentro de un párrafo con la clase text-white que esta dentro de un section con clase bg-dark</p>
+            </li>
+            <li>
+                <h3></h3>
+                <p></p>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <h2>
+            3.
+        </h2>
+        <button class="first-button">
+            Primer boton
+        </button>
+    </main>
+    <section class="cards">
+        <div class="img">
+            <img src="https://picsum.photos/id/237/200/300" alt="">
+        </div>
+        <div class="img">
+            <img src="https://picsum.photos/seed/picsum/200/300" alt="">
+        </div>
+    </section>
+    <section class="pro">
+        <h2>
+            4.
+        </h2>
+        <div class="elemento cuadrado circulo rectangulo">
+        </div>
+        <div class="input-container">
+            <input type="radio" name="prueba" class="circulo">
+            <input type="radio" name="prueba" class="cuadrado">
+            <input type="radio" name="prueba" class="rectangulo">
+        </div>
+    </section>
+</body>
+</html>

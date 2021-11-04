@@ -1,76 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-
 main {
-    align-items: center;
-    gap: 0px;
-    padding-top: 10vw;
-    padding-left: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10%;
 }
 
-section {
-    display: inline-block;
-    width: 17%;
-    height: 400px;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: left;
+.card-left {
+  background-color: #e38826;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  text-align: left;
 }
 
-img {
-    margin-top: 20px;
+.card-mid {
+  background-color: #006970;
+  color: white;
+  border-radius: 0px;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  text-align: left;
 }
 
-h2, p{
-    color: aliceblue;
+.card-right {
+  background-color: #004241;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  text-align: left;
 }
 
 button {
-    background-color: aliceblue;
-    width: 150px;
-    height: 40px;
-    border-radius: 30px;
-    margin-top: 60px;
-    border: transparent;
-    cursor: pointer ;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
 }
 
-button:active {
-    transform: scale(.98);
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
+button span {
+  color: white;
 }
-
-.bg-orange {
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 5px 0px 0px 5px;
-}
-
-.bg-blue {
-    background-color: hsl(184, 100%, 22%);
-}
-
-.bg-green {
-    background-color:hsl(179, 100%, 13%);
-    border-radius: 0px 5px 5px 0px;
-}
-
-cl-orange {
-    color: hsl(31, 77%, 52%);
-}
-
-cl-blue {
-    color: hsl(184, 100%, 22%);
-}
-
-cl-green {
-    color:hsl(179, 100%, 13%);
-}
-
-.lexan-deca {
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.big-shoulders-display {
-    font-family: 'Big Shoulders Display', cursive;
-}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+.first-button {
+    background-color: rgb(20, 000, 200);
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.first-button:hover {
+    background-color: peru;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:snow;
+    padding-top: 30px;
+    height: 50vh;
+    width: 100vw;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.pro {
+    margin-bottom: 300px;
+}
+
+.elemento {
+    width: 120px;
+    height: 100px;
+    background-color: steelblue;
+}
+
+.cuadrado:active {
+    width: 100px;
+    height: 100px;
+}
+
+.circulo:active {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.rectangulo:active {
+    width: 200px;
+    height: 100px;
+}

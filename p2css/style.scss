@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+$l-color: hsl(31, 77%, 52%);
+$m-color: hsl(184, 100%, 22%);
+$r-color: hsl(179, 100%, 13%);
+
+
+
+@mixin cards-styles($bg-color, $text-color, $border-style){
+    background-color: $bg-color;
+    color: $text-color;
+    border-radius: $border-style;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    text-align: left;
+}
+
+@mixin button-styles($bg-color-button){
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: $bg-color-button;
+    text-align: center;
+}
+
+.card-left{
+    @include cards-styles($l-color, white, 10px 0px 0px 10px)
+}
+
+.card-mid{
+    @include cards-styles($m-color, white,0px 0px 0px 0px)
+}
+
+.card-right{
+    @include cards-styles($r-color, white, 0px 10px 10px 0px)
+}
+
+.button-card {
+    @include button-styles(transparent)
+}
